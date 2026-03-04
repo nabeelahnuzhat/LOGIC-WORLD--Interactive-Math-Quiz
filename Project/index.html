@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Logic World - Math Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- PAGE 1: Welcome -->
+    <div id="landing">
+        <h1>🌟 Welcome to Logic World 🌟</h1>
+        <p>An Interactive Mathematics Quiz for Elementary Students</p>
+        <button onclick="showForm()">Start</button>
+    </div>
+
+    <!-- PAGE 2: Student Form -->
+    <div id="formSection" class="hidden">
+        <h2>Student Information</h2>
+        <label for="name"> Name: </label>
+        <input type="text" id="Name" placeholder="Name"> <br><br>
+        <label for="age"> Age: </label>
+        <input type="number" placeholder="Age"><br><br>
+        <label for="grade"> Grade: </label>
+        <input type="text" placeholder="Grade"><br><br>
+        <button onclick="startQuiz()">Begin class</button>
+    </div>
+ 
+
+    <!-- PAGE 3: Quiz -->
+    <div id="quizSection" class="hidden">
+
+        <!-- Lesson Section -->
+         <div id="lessonSection">
+            <h2> Watch This Lesson</h2>
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/5hG8e9jGeaA?si=RgjNDO8lWIWLuWOS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
+         <br><br>
+         <button onclick="startQuestions()" > Start Question </button>
+         </div>
+
+        <!-- Question Section -->
+         <div id="questionSection" class="hidden">
+        <div class="question-box">
+            <h3 id="questionNumber"></h3>
+            <p id="questionText"></p>
+            <ul id="optionsList"></ul>
+        </div>
+
+
+        <button onclick="nextQuestion()">Next</button>
+        </div>
+
+    </div>
+
+    <!-- PAGE 4: Result -->
+    <div id="resultSection" class="hidden">
+        <h2 id="resultText"></h2>
+        <button onclick="restartQuiz()">Try Again</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
