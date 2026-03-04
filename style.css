@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #fbfdfc;
+}
+
+h1 {
+    margin-top: 30px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    background-color: rgb(12, 191, 86);
+    border: none;
+    font-size: 16px;
+    color: white;
+}
+
+button:hover {
+    background-color: #3f9644;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Sky Blue Question Box */
+.question-box {
+    background-color: #87CEEB;
+    padding: 20px;
+    width: 60%;
+    margin: 30px auto;
+    border: 2px solid #333;
+}
+
+/* Options list */
+#optionsList {
+    list-style: none;
+    padding: 0;
+}
+
+#optionsList li {
+    background-color: white;
+    margin: 10px 0;
+    padding: 12px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+/* Circle letters A B C D */
+.option-letter {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+/* When circle is selected */
+.option-letter.selected {
+    background-color: #9a9595;
+    color: white;
+}
