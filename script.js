@@ -17,7 +17,7 @@ let questions = [
     {
         question: "Ria ate 1/4 of a cake. How much of the cake does Raisa need to eat to be equivalent to Ria?",
         options: ["2/4", "2/6", "1/8", "2/10"],
-        answer: "2/10"
+        answer: "2/6"
     },
     {
         question: "Which one of the following fraction is equal to 1?",
