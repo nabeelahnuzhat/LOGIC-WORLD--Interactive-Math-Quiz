@@ -1,33 +1,33 @@
 let questions = [
     {
-        question: "5 + 9= ?", 
-        options: ["10", "12", "13", "14"],
-        answer: "14"
+        question: "1/4 + 2/4= ?", 
+        options: ["1/4", "1/2", "3/4", "1"],
+        answer: "3/4"
     },
     {
-        question: "12 - 4 = ?",
-        options: ["6", "8", "9", "7"],
-        answer: "8"
+        question: "Which one of the following is correct?",
+        options: ["5/9 > 2/9", "5/9 < 2/9", "2/9 > 4/9", "5/9 = 2/9"],
+        answer: "5/9 > 2/9"
     },
     {
-        question: "3 x 4 = ?",
-        options: ["7", "12", "9", "10"],
-        answer: "12"
+        question: "8/9 __ 3/9=5/9; Which one of the following symbols will fit in the blank space?",
+        options: ["+", "-", "×", "÷"],
+        answer: "-"
     },
     {
-        question: "15 ÷ 3 = ?",
-        options: ["5", "3", "6", "4"],
-        answer: "5"
+        question: "Ria ate 1/4 of a cake. How much of the cake does Raisa need to eat to be equivalent to Ria?",
+        options: ["2/4", "2/6", "1/8", "2/10"],
+        answer: "2/10"
     },
     {
-        question: "Which is bigger?",
-        options: ["2", "5", "1", "3"],
-        answer: "5"
+        question: "Which one of the following fraction is equal to 1?",
+        options: ["4/6", "3/5", "3/4", "3/3"],
+        answer: "3/3"
     },
     {
-        question: "10 + 6 = ?",
-        options: ["14", "15", "16", "17"],
-        answer: "16"
+        question: "which one of the following fractions are eqivalent to 3/4 ?",
+        options: ["3/8, 6/12, 9/16", "6/8, 9/12, 12/16", "6/8, 8/12, 12/16", "6/8, 9/12, 15/16"],
+        answer: "6/8, 9/12, 12/16"
     }
 ];
 
